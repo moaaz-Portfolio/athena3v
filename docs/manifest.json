@@ -1,0 +1,16 @@
+{
+  "name": "ESP32-S3 WiFi Radar",
+  "version": "3.0.0",
+  "new_install_prompt_erase": true,
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        {
+          "path": "firmware/radar-s3-merged.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
